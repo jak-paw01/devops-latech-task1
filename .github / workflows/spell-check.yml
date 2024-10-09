@@ -12,7 +12,7 @@ jobs:
         - name: Set up Git repository
           uses: actions/checkout@v3
         - name: Install dictionaries
-          run: |
+          run:
             npm install @cspell/dict-pl_pl
             npm install @cspell/dict-latex
             npm install @cspell/dict-software-terms
@@ -23,7 +23,7 @@ jobs:
             files: "*.tex"
             check_dot_files: false
             strict: true
-            incremental_file_only: false
+            incremental_files_only: false
 
       
 
