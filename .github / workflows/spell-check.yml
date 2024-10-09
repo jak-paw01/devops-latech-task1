@@ -24,6 +24,6 @@ jobs:
             check_dot_files: false
             strict: true
             incremental_file_only: false
-            
+
       
 
