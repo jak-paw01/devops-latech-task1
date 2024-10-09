@@ -8,7 +8,7 @@ on:
 jobs:
   spellcheck:
       runs-on: ubuntu-latest
-      setps:
+      steps:
         - name: Set up Git repository
           uses: actions/checkout@v3
         - name: Install dictionaries
